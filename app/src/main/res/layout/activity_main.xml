@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="32dp">
+
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saludar" />
+
+        <Button
+            android:id="@+id/botonVibrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibrar" />
+
+        <Button
+            android:id="@+id/botonAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audio" />
+
+        <Button
+            android:id="@+id/botonVentana2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ventana 2" />
+    </LinearLayout>
+</ScrollView>
